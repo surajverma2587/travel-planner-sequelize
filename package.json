@@ -1,0 +1,30 @@
+{
+  "name": "travel-planner-sequelize",
+  "version": "1.0.0",
+  "description": "In this mini-project, you will work with a group to build an API using Node.js, Express.js, MySQL, and Sequelize, and you will deploy it to Heroku.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surajverma2587/travel-planner-sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/surajverma2587/travel-planner-sequelize/issues"
+  },
+  "homepage": "https://github.com/surajverma2587/travel-planner-sequelize#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.12.0-beta.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
